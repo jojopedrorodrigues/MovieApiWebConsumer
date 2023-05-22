@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.container-inicial {
+    margin-top: 4%;
+    height: 100%;
+    display: flex;
+    /*força ficar na mesma linha */
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: start;
+
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    background-color: rgba(100, 100, 100, 0.5);
+    color: white;
+    border-style: none;
+    border-radius: 22px;
+    margin-left: 9px;
+}
+
+button:hover{
+    background-color: red;
+}
+
+
+.child {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    width: 300px;
+    margin: 10px;
+    height: 300px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+.imagem {
+    border-radius: 16px;
+    width: 300px;
+    height: 130px;
+    opacity: 0.6;
+}
+
+.title-center {
+    overflow: auto;
+    width: 300px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-text {
+    margin-top: 5px;
+
+    overflow: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.title-button {
+    margin-top: 5px;
+    padding-right: 10px;
+
+    overflow: auto;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.title-filme {
+    font-size: 21px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.meu-p {
+    max-height: 78px;
+    width: 300px;
+    overflow: auto; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+    white-space: wrap;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 11px;
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.meu-p::-webkit-scrollbar {
+    display: none; 
+  }
