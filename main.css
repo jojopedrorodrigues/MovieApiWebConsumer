@@ -3,22 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
-    background-color: rgba(245, 245, 245, 0.5);
+  background-color: rgb(255, 255, 255);
 }
-
+.title-um{
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(4, 24, 41);
+}
 .container-inicial {
     margin-top: 4%;
     height: 100%;
     display: flex;
+    width: 100%;
     /*força ficar na mesma linha */
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: start;
-
+    align-items: center;
+    justify-content: center;
 }
+.barra-inicial {
+    
+    background-color: rgba(100, 100, 100, 0.5);
+    width:  100%;
+    height: 50px;
+    display: flex;
+    /*força ficar na mesma linha */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
 
 button {
     height: 30px;
@@ -66,7 +81,6 @@ button:hover{
 
 .title-text {
     margin-top: 5px;
-
     overflow: auto;
     width: 300px;
     display: flex;
@@ -92,6 +106,7 @@ button:hover{
 }
 
 .meu-p {
+    font-family: 'Instrument Sans', sans-serif;
     max-height: 78px;
     width: 300px;
     overflow: auto; 
@@ -103,7 +118,6 @@ button:hover{
     margin-right: 11px;
     font-size: 13px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .meu-p::-webkit-scrollbar {
     display: none; 
