@@ -1,13 +1,12 @@
 
 function obterListaFilmes() {
-    const apiKey = '72c76165307068bf8669ab64629bf31c'; // Substitua com sua chave de API do TMDb
-  
+    const apiKey = '72c76165307068bf8669ab64629bf31c'; 
     fetch(`https://api.themoviedb.org/3/movie/popular?api_key=${apiKey}`)
       .then(response => response.json())
       .then(data => {
         const listaFilmes = data.results;
   
-        const container = document.getElementById('container-inicial'); // Container onde os elementos serão adicionados
+        const container = document.getElementById('container-inicial'); 
   
         listaFilmes.forEach(filme => {
           const divFilme = document.createElement('div');
