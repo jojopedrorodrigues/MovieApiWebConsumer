@@ -15,7 +15,6 @@ body {
     height: 100%;
     display: flex;
     width: 100%;
-    /*força ficar na mesma linha */
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -27,7 +26,6 @@ body {
     width:  100%;
     height: 50px;
     display: flex;
-    /*força ficar na mesma linha */
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
