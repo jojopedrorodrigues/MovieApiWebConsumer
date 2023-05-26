@@ -48,7 +48,6 @@ function obterListaFilmes() {
         });
       })
       .catch(error => {
-        // Trate os erros aqui
         console.error('Ocorreu um erro:', error);
       });
   }
