@@ -1,6 +1,5 @@
 const page = 8;
 function obterListaFilmes() {
-<<<<<<< HEAD
     const apiKey = '72c76165307068bf8669ab64629bf31c';
 
     const sortBy = 'popularity.desc';
